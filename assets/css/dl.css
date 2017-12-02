@@ -2,11 +2,22 @@
  * Globals
  */
 
-/* Links */
+/* Links 
 a,
 a:focus,
 a:hover {
   color: #fff;
+}*/
+
+.social a {
+	font-size: 22px;
+    color: #999;
+    padding: .5rem;
+}
+
+.social a:focus,
+.social a:hover {
+    color: #007bff;
 }
 
 /* Custom default button */
@@ -55,6 +66,7 @@ body {
   vertical-align: top;
 }
 .cover-container {
+  margin-top: -2rem;
   margin-right: auto;
   margin-left: auto;
 }
